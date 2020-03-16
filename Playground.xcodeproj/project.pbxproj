@@ -101,12 +101,10 @@
 		1850804F241FD9ED00F261E1 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				18508050241FD9ED00F261E1 /* AppDelegate.swift */,
-				18508052241FD9ED00F261E1 /* SceneDelegate.swift */,
 				18508054241FD9ED00F261E1 /* ViewController.swift */,
+				18508052241FD9ED00F261E1 /* SceneDelegate.swift */,
 				18508056241FD9ED00F261E1 /* Main.storyboard */,
-				1850805C241FD9EE00F261E1 /* Assets.xcassets */,
-				1850805E241FD9EE00F261E1 /* LaunchScreen.storyboard */,
+				18508083241FDF3100F261E1 /* Supporting Files */,
 				18508061241FD9EE00F261E1 /* Info.plist */,
 				18508059241FD9ED00F261E1 /* Playground.xcdatamodeld */,
 			);
@@ -129,6 +127,16 @@
 				18508077241FD9EE00F261E1 /* Info.plist */,
 			);
 			path = PlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		18508083241FDF3100F261E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18508050241FD9ED00F261E1 /* AppDelegate.swift */,
+				1850805E241FD9EE00F261E1 /* LaunchScreen.storyboard */,
+				1850805C241FD9EE00F261E1 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
