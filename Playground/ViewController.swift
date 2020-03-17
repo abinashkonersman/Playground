@@ -16,6 +16,23 @@ class ViewController: UIViewController {
     }
     @IBAction func touchCard2(_ sender: UIButton) {
         flipCard(withEmoji: "👹", on: sender)
+    }
+        
+        @IBAction func touchCard3(_ sender: UIButton) {
+        flipCard(withEmoji: "🎃", on: sender)
+    }
+            
+            @IBAction func touchCard4(_ sender: UIButton) {
+            flipCard(withEmoji: "🦇", on: sender)
+    }
+    
+               @IBAction func touchCard5(_ sender: UIButton) {
+               flipCard(withEmoji: "🕷", on: sender)
+       }
+    @IBAction func touchCard6(_ sender: UIButton) {
+                  flipCard(withEmoji: "🧙🏻‍♀️", on: sender)
+          }
+    
         
     }
     func flipCard(withEmoji emoji : String, on button: UIButton){
@@ -29,5 +46,5 @@ class ViewController: UIViewController {
         
     }
 
-}
+
 
